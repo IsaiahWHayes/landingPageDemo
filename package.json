@@ -1,0 +1,22 @@
+{
+  "name": "landingpagedemo",
+  "version": "1.0.0",
+  "description": "this is a demo application. I automated the landing page to showcase my ability to write comprehensive automated cases using JavaScript, Cypress, and Mocha.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IsaiahWHayes/landingPageDemo.git"
+  },
+  "author": "Isaiah Hayes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IsaiahWHayes/landingPageDemo/issues"
+  },
+  "homepage": "https://github.com/IsaiahWHayes/landingPageDemo#readme",
+  "devDependencies": {
+    "cypress": "^13.6.6"
+  }
+}
