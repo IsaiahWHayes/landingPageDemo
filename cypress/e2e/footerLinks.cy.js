@@ -43,4 +43,16 @@ describe('footer links have the correct href\'s', function () {
         cy.get('#menu-item-218108').children()
         .should('have.attr', 'href').and('equal', 'https://ultimateqa.com/automation/')
     })
+
+    it('goes to the Terms and Conditions page', function () {
+        // terms and conditions button has the correct href
+        cy.get('.et-l--footer').contains('Terms and conditions')
+        .should('have.attr', 'href').and('equal', 'https://courses.ultimateqa.com/pages/terms')
+    })
+
+    it('goes to the Automation Exercises page', function () {
+        // automation exercises button has the correct href
+        cy.get('.et-l--footer').contains('Privacy policy')
+        .should('have.attr', 'href').and('equal', 'https://courses.ultimateqa.com/pages/privacy')
+    })
 })
